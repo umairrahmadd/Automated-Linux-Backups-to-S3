@@ -12,4 +12,4 @@ cp -r $src $dest/backup_$(date +%Y-%m-%d_%H-%M-%S)
 aws s3 sync $dest s3://aws-backups-475739/ --delete
 
 # Logging
-echo "Backup folder copied and uploaded to S3 at $(date '+%Y-%m-%d %H:%M:%S')" >> /home/umair/backup.log
+echo "Backup folder copied and succssfully uploaded to S3 at $(date '+%Y-%m-%d %H:%M:%S')" >> /home/umair/backup.log
