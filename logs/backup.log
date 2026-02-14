@@ -1,0 +1,5 @@
+# Example Enteries
+[2026-02-14 17:00:01] Backup started from /home/user/project_data
+[2026-02-14 17:00:02] Backup copied to /home/user/local_backups/backup_2026-02-14_17-00-01
+[2026-02-14 17:00:05] Backup uploaded to S3 bucket s3://user-demo-backups-12345
+[2026-02-14 17:00:05] Backup completed successfully
